@@ -16,15 +16,6 @@ public class Department {
         this.budget = budget;
     }
 
-    public Department(String name, String location, int code, int phoneExtension, double budget, List<Employee> staff) {
-        this.name = name;
-        this.location = location;
-        this.code = code;
-        this.phoneExtension = phoneExtension;
-        this.budget = budget;
-        this.staff = staff;
-    }
-
     public String getName() {
         return name;
     }
