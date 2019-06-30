@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="990c0835-928a-4ad2-a4b7-6dd9e2eea387" name="Default Changelist" comment="Second commit">
-      <change afterPath="$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio/Aula03/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio/Aula03/Department.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio/Aula03/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio/Aula03/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/exercicio/Aula03/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/exercicio/Aula03/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula03/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula03/Department.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula03/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula03/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Aula03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula03/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aula03/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
+            <state relative-caret-position="272">
+              <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#80#81#0" expanded="true" />
@@ -73,19 +67,19 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="153">
               <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="182">
+              <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/Aula02/Vetor.java" />
         <option value="$PROJECT_DIR$/src/Aula03/Department.java" />
         <option value="$PROJECT_DIR$/src/Aula03/Employee.java" />
+        <option value="$PROJECT_DIR$/src/Aula03/Main.java" />
         <option value="$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml" />
         <option value="$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/Aula03/Main.java" />
       </list>
     </option>
   </component>
@@ -150,18 +144,6 @@
               <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
               <item name="exercicio" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aula01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercicio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Aula02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="exercicio" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Aula03" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,6 +152,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Aula03" type="462c0819:PsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exercicio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exercicio" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Aula03" type="462c0819:PsiDirectoryNode" />
+              <item name="View" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,7 +254,7 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -274,7 +263,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.32850242" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -354,6 +343,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aula03/Classes.java" />
+    <entry file="file://$PROJECT_DIR$/src/Aula03/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#80#81#0" expanded="true" />
+            <element signature="e#98#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aula03/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -383,32 +392,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aula03/View/ViewEmployee.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aula03/Controllers/ViewEmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="182">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aula03/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#98#99#0" expanded="true" />
           </folding>
         </state>
       </provider>

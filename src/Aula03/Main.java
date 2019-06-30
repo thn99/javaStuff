@@ -14,7 +14,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception{
         FXMLLoader loader = new FXMLLoader();
-        Pane sceneGraph = loader.load(getClass().getResource("/View/ViewEmployee.fxml").openStream());
+        Pane sceneGraph = loader.load(getClass().getResource("/Aula03/View/ViewEmployee.fxml").openStream());
         Scene scene = new Scene(sceneGraph, 800, 600);
         stage.setScene(scene);
         stage.show();
