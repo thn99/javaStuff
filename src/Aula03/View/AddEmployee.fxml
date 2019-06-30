@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aula03.Controllers.AddEmployeeController">
+   <children>
+      <TextField fx:id="txtName" layoutX="66.0" layoutY="64.0" prefHeight="25.0" prefWidth="169.0" promptText="Name:" />
+      <TextField fx:id="txtJobTitle" layoutX="66.0" layoutY="112.0" prefHeight="25.0" prefWidth="169.0" promptText="Job Title:" />
+      <TextField fx:id="txtSalary" layoutX="66.0" layoutY="160.0" prefHeight="25.0" prefWidth="169.0" promptText="Salary:" />
+      <ComboBox fx:id="cbDept" layoutX="66.0" layoutY="200.0" prefHeight="25.0" prefWidth="169.0" promptText="Department in Charge:" />
+      <Button fx:id="btnAdd" layoutX="66.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Add" />
+      <Button fx:id="btnClose" layoutX="190.0" layoutY="291.0" mnemonicParsing="false" text="Close" />
+   </children>
+</AnchorPane>

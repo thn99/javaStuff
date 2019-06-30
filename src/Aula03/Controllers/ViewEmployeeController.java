@@ -23,19 +23,7 @@ public class ViewEmployeeController {
     @FXML Button btnEdit;
     @FXML Button btnDept;
 
-    private ObservableList<Employee> loadValues(){
-        ObservableList<Employee> employee = FXCollections.observableArrayList();
-        return employee;
-    }
 
-    public void fill(){
-        cId.setCellValueFactory(new PropertyValueFactory<>("id"));
-        cName.setCellValueFactory(new PropertyValueFactory<>("name"));
-        cSalary.setCellValueFactory(new PropertyValueFactory<>("salary"));
-        cJobTitle.setCellValueFactory(new PropertyValueFactory<>("jobTitle"));
-        cDeptInCharge.setCellValueFactory(new PropertyValueFactory<>("deptInCharge"));
-        table.setItems(loadValues());
-    }
 
 
 }
