@@ -48,4 +48,9 @@ public class Employee {
     void getAnnualSalary(){
         System.out.println(this.getSalary() * 12);
     }
+
+    void printState() {
+        System.out.println("ID: " + getId() + "\nName: " + getName() + "\nJob title: " + getJobTitle() + "\nSalary: " + getSalary()
+        );
+    }
 }

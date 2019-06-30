@@ -1,12 +1,14 @@
 package Aula03;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Department {
     String name, location;
     int code, phoneExtension;
     double budget;
-    List<Employee> staff;
+    List<Employee> staff = new ArrayList<>();
+    int employeeNumber;
 
     public Department(String name, String location, int code, int phoneExtension, double budget) {
         this.name = name;
@@ -14,6 +16,15 @@ public class Department {
         this.code = code;
         this.phoneExtension = phoneExtension;
         this.budget = budget;
+    }
+
+    public Department(String name, String location, int code, int phoneExtension, double budget, List<Employee> staff) {
+        this.name = name;
+        this.location = location;
+        this.code = code;
+        this.phoneExtension = phoneExtension;
+        this.budget = budget;
+        this.staff = staff;
     }
 
     public String getName() {
@@ -66,12 +77,44 @@ public class Department {
 
     void addEmployee(Employee e){
         this.staff.add(e);
-        this.setStaff(staff);
+        employeeNumber++;
     }
+
+    void removeEmployee(Employee e){
+        for(Employee employee : this.staff){
+            if(employee == e){
+                staff.remove(employee);
+            }
+        }
+        employeeNumber--;
+    }
+
+    void removeEmployee(Long id){
+        for(Employee employee : this.staff){
+            if(employee.getId() == id){
+                staff.remove(employee);
+            }
+        }
+        employeeNumber--;
+    }
+
     void listAllEmployees(){
         for (Employee e : this.staff) {
-            System.out.println(e);
+            System.out.println(e.getId() + e.getName());
         }
+    }
+
+    int sizeOfEmployees(){
+        return employeeNumber;
+    }
+
+    Employee getEmployee(long id){
+        for(Employee e : staff){
+            if(e.getId() == id){
+                e.printState();
+            }
+        }
+        return null;
     }
 
 }

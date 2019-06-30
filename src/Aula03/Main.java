@@ -8,5 +8,9 @@ public class Main {
         dept.addEmployee(n1);
         dept.addEmployee(n2);
         dept.listAllEmployees();
+        dept.removeEmployee(n1);
+        dept.listAllEmployees();
+
+        dept.getEmployee(2);
     }
 }
