@@ -8,23 +8,15 @@ public class Department {
     int code, phoneExtension;
     double budget;
     List<Employee> staff = new ArrayList<>();
-    int employeeNumber;
+    Employee chief;
 
-    public Department(String name, String location, int code, int phoneExtension, double budget) {
+    public Department(String name, String location, int code, int phoneExtension, double budget, Employee chief) {
         this.name = name;
         this.location = location;
         this.code = code;
         this.phoneExtension = phoneExtension;
         this.budget = budget;
-    }
-
-    public Department(String name, String location, int code, int phoneExtension, double budget, List<Employee> staff) {
-        this.name = name;
-        this.location = location;
-        this.code = code;
-        this.phoneExtension = phoneExtension;
-        this.budget = budget;
-        this.staff = staff;
+        this.chief = chief;
     }
 
     public String getName() {
@@ -77,43 +69,51 @@ public class Department {
 
     void addEmployee(Employee e){
         this.staff.add(e);
-        employeeNumber++;
     }
 
     void removeEmployee(Employee e){
-        for(Employee employee : this.staff){
-            if(employee == e){
-                staff.remove(employee);
-            }
-        }
-        employeeNumber--;
+        staff.remove(e);
     }
 
-    void removeEmployee(Long id){
+    public Employee getChief() {
+        return chief;
+    }
+
+    public void setChief(Employee chief) {
+        this.chief = chief;
+    }
+
+    void removeEmployee(int id){
         for(Employee employee : this.staff){
             if(employee.getId() == id){
                 staff.remove(employee);
             }
         }
-        employeeNumber--;
     }
 
     void listAllEmployees(){
         for (Employee e : this.staff) {
-            System.out.println(e.getId() + e.getName());
+            System.out.println("Name: " + e.getName());
         }
+        System.out.println("==========================");
     }
 
     int sizeOfEmployees(){
-        return employeeNumber;
+        return staff.size();
     }
 
     Employee getEmployee(long id){
+        boolean aux = false;
         for(Employee e : staff){
             if(e.getId() == id){
+                aux = true;
                 e.printState();
             }
         }
+        if(aux == false){
+            System.out.println("Employee not found!");
+        }
+        System.out.println("==========================");
         return null;
     }
 

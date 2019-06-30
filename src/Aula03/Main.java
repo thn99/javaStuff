@@ -1,16 +1,22 @@
 package Aula03;
 
-public class Main {
-    public static void main(String[] args) {
-        Employee n1 = new Employee("Teste 1", "Dono", 1, 1323);
-        Employee n2 = new Employee("Teste 2", "quase dono", 2, 11);
-        Department dept = new Department("Empresa", "SP", 1, 22, 123);
-        dept.addEmployee(n1);
-        dept.addEmployee(n2);
-        dept.listAllEmployees();
-        dept.removeEmployee(n1);
-        dept.listAllEmployees();
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
+import javafx.stage.Stage;
 
-        dept.getEmployee(2);
+public class Main extends Application {
+    public static void main(String[] args) {
+        launch(args);
+    }
+
+    @Override
+    public void start(Stage stage) throws Exception{
+        FXMLLoader loader = new FXMLLoader();
+        Pane sceneGraph = loader.load(getClass().getResource("/View/ViewEmployee.fxml").openStream());
+        Scene scene = new Scene(sceneGraph, 800, 600);
+        stage.setScene(scene);
+        stage.show();
     }
 }
