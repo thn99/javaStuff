@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Aula03.Controllers.ViewDepartmentController">
+   <children>
+      <TableView fx:id="tableDepartment" layoutY="14.0" prefHeight="334.0" prefWidth="600.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+        <columns>
+          <TableColumn fx:id="cCode" prefWidth="60.0" text="Code" />
+          <TableColumn fx:id="cName" prefWidth="136.99998474121094" text="Name" />
+            <TableColumn fx:id="cLocation" minWidth="7.0" prefWidth="91.0" text="Location" />
+            <TableColumn fx:id="cBudget" prefWidth="93.0" text="Budget" />
+            <TableColumn fx:id="cPhoneExtension" prefWidth="115.0" text="Phone Extension" />
+            <TableColumn fx:id="cChief" prefWidth="102.0" text="Chief" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

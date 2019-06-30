@@ -11,7 +11,7 @@
       <TextField fx:id="txtJobTitle" layoutX="66.0" layoutY="112.0" prefHeight="25.0" prefWidth="169.0" promptText="Job Title:" />
       <TextField fx:id="txtSalary" layoutX="66.0" layoutY="160.0" prefHeight="25.0" prefWidth="169.0" promptText="Salary:" />
       <ComboBox fx:id="cbDept" layoutX="66.0" layoutY="200.0" prefHeight="25.0" prefWidth="169.0" promptText="Department in Charge:" />
-      <Button fx:id="btnAdd" layoutX="66.0" layoutY="291.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Add" />
-      <Button fx:id="btnClose" layoutX="190.0" layoutY="291.0" mnemonicParsing="false" text="Close" />
+      <Button fx:id="btnAdd" layoutX="76.0" layoutY="291.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="68.0" text="Add" />
+      <Button fx:id="btnClose" layoutX="151.0" layoutY="291.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="68.0" text="Close" />
    </children>
 </AnchorPane>

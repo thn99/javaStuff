@@ -16,9 +16,10 @@
             <TableColumn fx:id="cDeptInCharge" prefWidth="186.0" text="Department in Charge" />
         </columns>
       </TableView>
-      <Button fx:id="btnAdd" layoutX="26.0" layoutY="361.0" mnemonicParsing="false" onAction="#teste" prefHeight="25.0" prefWidth="70.0" text="Add" />
+      <Button fx:id="btnAdd" layoutX="26.0" layoutY="361.0" mnemonicParsing="false" onAction="#show" prefHeight="25.0" prefWidth="70.0" text="Add" />
       <Button fx:id="btnRemove" layoutX="110.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Remove" />
       <Button fx:id="btnEdit" layoutX="192.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Edit" />
-      <Button fx:id="btnDept" layoutX="502.0" layoutY="361.0" mnemonicParsing="false" text="Departments" />
+      <Button fx:id="btnDept" layoutX="502.0" layoutY="361.0" mnemonicParsing="false" text="Departments" AnchorPane.rightAnchor="70.0" />
+      <Button fx:id="btnClose" layoutX="526.0" layoutY="361.0" mnemonicParsing="false" onAction="#close" text="Close" AnchorPane.rightAnchor="10.0" />
    </children>
 </AnchorPane>

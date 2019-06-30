@@ -14,6 +14,7 @@ public class EmployeeDAO {
             statement.setString(1, e.getName());
             statement.setString(2, e.getJobTitle());
             statement.setDouble(3, e.getSalary());
+            statement.execute();
         } catch (SQLException exception){
             exception.printStackTrace();
         }
@@ -24,12 +25,24 @@ public class EmployeeDAO {
         ConnectionFactory factory = new ConnectionFactory();
         try(PreparedStatement statement = factory.createPreparedStatement(sql)){
             statement.setLong(1, e.getId());
+            statement.execute();
         } catch(SQLException exception){
             exception.printStackTrace();
         }
     }
 
     public void update(Employee e){
+        String sql = "UPDATE employee SET name = ?, jobTitle = ?, salary = ? WHERE id = ?";
+        ConnectionFactory factory = new ConnectionFactory();
+        try(PreparedStatement statement = factory.createPreparedStatement(sql)){
+            statement.setString(1, e.getName());
+            statement.setString(2, e.getJobTitle());
+            statement.setDouble(3, e.getSalary());
+            statement.setLong(4, e.getId());
+            statement.execute();
 
+        } catch (SQLException exception){
+            exception.printStackTrace();
+        }
     }
 }
