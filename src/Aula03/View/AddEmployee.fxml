@@ -13,5 +13,6 @@
       <ComboBox fx:id="cbDept" layoutX="66.0" layoutY="200.0" prefHeight="25.0" prefWidth="169.0" promptText="Department in Charge:" />
       <Button fx:id="btnAdd" layoutX="76.0" layoutY="291.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="68.0" text="Add" />
       <Button fx:id="btnClose" layoutX="151.0" layoutY="291.0" mnemonicParsing="false" onAction="#close" prefHeight="25.0" prefWidth="68.0" text="Close" />
+      <TextField fx:id="txtId" layoutX="66.0" layoutY="14.0" prefHeight="25.0" prefWidth="169.0" promptText="ID:" />
    </children>
 </AnchorPane>

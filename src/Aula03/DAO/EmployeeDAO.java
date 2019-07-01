@@ -3,10 +3,13 @@ package Aula03.DAO;
 import Aula03.Employee;
 import Aula03.Utils.ConnectionFactory;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class EmployeeDAO {
+
+
     public void save(Employee e){
         String sql = "INSERT INTO employee (name, jobTitle, salary) VALUES (?, ?, ?, ?)";
         ConnectionFactory factory = new ConnectionFactory();

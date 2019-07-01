@@ -1,6 +1,7 @@
 package Aula03.Controllers;
 
 
+import Aula03.DAO.EmployeeDAO;
 import Aula03.Department;
 import Aula03.Employee;
 
@@ -18,6 +19,7 @@ public class AddEmployeeController {
     @FXML TextField txtName;
     @FXML TextField txtSalary;
     @FXML TextField txtJobTitle;
+    @FXML TextField txtId;
     @FXML ComboBox<Department> cbDept;
 
     @FXML Button btnAdd;
@@ -25,7 +27,12 @@ public class AddEmployeeController {
 
 
     public void add(){
-        System.out.println(txtName.getText() + "\n" + txtSalary.getText());
+        EmployeeDAO dao = new EmployeeDAO();
+        long id = Long.parseLong(txtId.getText());
+        double salary = Double.parseDouble(txtSalary.getText());
+        Employee employee = new Employee(txtName.getText(), txtJobTitle.getText(), id, salary, null);
+        dao.save(employee);
+        //list.add(employee);
     }
 
 
