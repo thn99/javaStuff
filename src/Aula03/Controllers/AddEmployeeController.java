@@ -32,7 +32,7 @@ public class AddEmployeeController {
         double salary = Double.parseDouble(txtSalary.getText());
         Employee employee = new Employee(txtName.getText(), txtJobTitle.getText(), id, salary, null);
         dao.save(employee);
-        //list.add(employee);
+
     }
 
 
